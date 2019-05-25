@@ -1,0 +1,350 @@
+.c3 svg {
+    font: 10px sans-serif
+}
+
+.c3 line,
+.c3 path {
+    fill: none;
+    stroke: #000
+}
+
+.c3 text {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.c3-bars path,
+.c3-event-rect,
+.c3-legend-item-tile,
+.c3-xgrid-focus,
+.c3-ygrid {
+    shape-rendering: crispEdges
+}
+
+.c3-chart-arc path {
+    stroke: #fff
+}
+
+.c3-chart-arc text {
+    fill: #fff;
+    font-size: 13px
+}
+
+.c3-grid line {
+    stroke: #aaa
+}
+
+.c3-grid text {
+    fill: #aaa
+}
+
+.c3-xgrid,
+.c3-ygrid {
+    stroke-dasharray: 3 3
+}
+
+.c3-text.c3-empty {
+    fill: gray;
+    font-size: 2em
+}
+
+.c3-line {
+    stroke-width: 1px
+}
+
+.c3-circle._expanded_ {
+    stroke-width: 1px;
+    stroke: #fff
+}
+
+.c3-selected-circle {
+    fill: #fff;
+    stroke-width: 2px
+}
+
+.c3-bar {
+    stroke-width: 0
+}
+
+.c3-bar._expanded_ {
+    fill-opacity: .75
+}
+
+.c3-target.c3-focused {
+    opacity: 1
+}
+
+.c3-target.c3-focused path.c3-line,
+.c3-target.c3-focused path.c3-step {
+    stroke-width: 2px
+}
+
+.c3-target.c3-defocused {
+    opacity: .3!important
+}
+
+.c3-region {
+    fill: #4682b4;
+    fill-opacity: .1
+}
+
+.c3-brush .extent {
+    fill-opacity: .1
+}
+
+.c3-legend-item {
+    font-size: 12px
+}
+
+.c3-legend-item-hidden {
+    opacity: .15
+}
+
+.c3-legend-background {
+    opacity: .75;
+    fill: #fff;
+    stroke: #d3d3d3;
+    stroke-width: 1
+}
+
+.c3-tooltip-container {
+    z-index: 10
+}
+
+.c3-tooltip {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    empty-cells: show;
+    -webkit-box-shadow: 7px 7px 12px -9px #777;
+    -moz-box-shadow: 7px 7px 12px -9px #777;
+    box-shadow: 7px 7px 12px -9px #777;
+    opacity: .9
+}
+
+.c3-tooltip tr {
+    border: 1px solid #CCC
+}
+
+.c3-tooltip th {
+    background-color: #aaa;
+    font-size: 14px;
+    padding: 2px 5px;
+    text-align: left;
+    color: #FFF
+}
+
+.c3-tooltip td {
+    font-size: 13px;
+    padding: 3px 6px;
+    background-color: #fff;
+    border-left: 1px dotted #999
+}
+
+.c3-tooltip td>span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 6px
+}
+
+.c3-tooltip td.value {
+    text-align: right
+}
+
+.c3-area {
+    stroke-width: 0;
+    opacity: .2
+}
+
+.c3-chart-arcs-title {
+    dominant-baseline: middle;
+    font-size: 1.3em
+}
+
+.c3-chart-arcs .c3-chart-arcs-background {
+    fill: #e0e0e0;
+    stroke: none
+}
+
+.c3-chart-arcs .c3-chart-arcs-gauge-unit {
+    fill: #000;
+    font-size: 16px
+}
+
+.c3-chart-arcs .c3-chart-arcs-gauge-max,
+.c3-chart-arcs .c3-chart-arcs-gauge-min {
+    fill: #777
+}
+
+.c3-chart-arc .c3-gauge-value {
+    fill: #000
+}
+
+.c3-shapes.c3-shapes-data1.c3-lines.c3-lines-data1>path {
+    stroke: rgba(255, 0, 0, 0) !important;
+    opacity: 0 !important;
+}
+
+.graph .ui.selection.dropdown,
+.graph select {
+    min-width: 150px;
+    width: auto;
+    border: none;
+    color: #8b8d90;
+    background: url(../images/svg/drop2.svg) no-repeat 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-apperance: none;
+    -ms-appearance: none;
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: capitalize;
+    appearance: none;
+    margin-right: 10px;
+    padding: 5px 30px 5px 12px;
+    cursor: pointer;
+}
+
+.graph select::ms-expand,
+.graph .ui.selection.dropdown {
+    display: none;
+}
+
+.graph .ui.selection.dropdown>.delete.icon,
+.graph .ui.selection.dropdown>.dropdown.icon,
+.graph .ui.selection.dropdown>.search.icon,
+.graph .ui.selection.dropdown i {
+    display: none;
+}
+
+.dashboard .dashboard-grid-fragment .grid-fragment .alerts-content .graph span {
+    float: none;
+    color: #333;
+}
+
+.graph select {
+    background: url(../images/svg/drop2.svg) no-repeat 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-apperance: none;
+    -ms-appearance: none;
+    cursor: pointer;
+    appearance: none;
+    cursor: pointer;
+    word-wrap: break-word;
+    line-height: 1em;
+    white-space: normal;
+    outline: 0;
+    -webkit-transform: rotateZ(0);
+    -ms-transform: rotate(0);
+    transform: rotateZ(0);
+    min-width: 9em;
+    min-height: 2.3em;
+    color: #8b8d90;
+    display: inline-block;
+    padding: 5px 17px;
+    box-shadow: none;
+    border: 1px solid rgba(34, 36, 38, .15);
+    -webkit-transition: box-shadow .1s ease, width .1s ease;
+    transition: box-shadow .1s ease, width .1s ease;
+}
+
+.graph .graph-chartfilter {
+    float: right;
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    top: 0;
+}
+
+.graph .graph-chartfilter .durationfilter {
+            display: inline-block;
+        }
+.graph .graph-chartfilter .durationfilter input[type="text"] {
+    padding: 6px 10px;
+}
+.graph .graph-chartfilter .ui.selection.dropdown .icon{
+display: none;
+}
+.graph .graph-chartfilter .filteritems{
+    margin-bottom:10px;
+}
+.graph .graph-chartfilter input ,
+.graph .graph-chartfilter .ui.selection.dropdown ,
+.graph .graph-chartfilter select {
+                display: inline-block;
+                box-shadow: none;
+                cursor: pointer;
+                word-wrap: break-word;
+                line-height: 1em;
+                white-space: normal;
+                outline: 0;
+                -webkit-transform: rotateZ(0);
+                -ms-transform: rotate(0);
+                transform: rotateZ(0);
+                min-width: 130px;
+                min-height: 2em;
+                display: inline-block;
+                padding: 9px 27px 9px 9px;
+                box-shadow: none;
+                border: 1px solid rgba(34, 36, 38, .15);
+                border-radius: .28571429rem;
+                -webkit-transition: box-shadow .1s ease, width .1s ease;
+                transition: box-shadow .1s ease, width .1s ease;
+            }
+
+.graph {
+    position: relative;
+    padding-top: 50px;
+}
+
+.c3-area {
+    fill: #2f71be !important;
+    opacity: 1 !important;
+}
+
+.graph circle.c3-shape.c3-circle {
+    fill: rgb(255, 255, 255) !important;
+    opacity: 1 !important;
+    width: 20px !important;
+    stroke: rgb(31, 119, 180) !important;
+    height: 20px !important;
+    r: 3.5;
+}
+
+.graph text.c3-axis-x-label,
+.graph text.c3-axis-y-label {
+    fill: #6695cc;
+    font-size: 12px;
+}
+
+.graph tspan {
+    fill: #838383;
+    font-size: 11px;
+    font-weight: 600;
+}
+.graph .filteric{
+    width:20px;
+    height: 20px;
+    background-size: 20px 20px;
+    display: none;
+    fill:#999;
+}
+.graph .c3 line,
+.graph .c3 path {
+    stroke: #fff;
+}
+.graph-chartfilter .filter{
+        display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+@media only screen and(max-width:1300px) {
+    .graph .ui.selection.dropdown,
+    .graph select {
+        min-width: 100px;
+    }
+}

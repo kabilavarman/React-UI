@@ -1,0 +1,98 @@
+.custom-treeview {
+  background: #0a3f79;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.node {
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 3px;
+}
+
+.node:hover {
+  cursor: pointer;
+}
+.node {
+  max-width: 90%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 4px;
+}
+.info,
+.node {
+  font-family: "GothamHTF-Book";
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-transform: capitalize;
+  color: #fff;
+}
+.info {
+  padding: 5px 0;
+}
+.tree-view_arrow {
+  display: inline-block;
+  vertical-align: top;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* the tree node's style */
+.tree-view {
+  padding-left: 15px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.tree-view_item {
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+.activeTree {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* style for the children nodes container */
+.tree-view_children {
+  margin-left: 10px;
+}
+.tree-view_children .tree-view {
+  padding-left: 0;
+}
+.tree-view_children-collapsed {
+  height: 0px;
+}
+
+.tree-view_arrow {
+  cursor: pointer;
+  margin-right: 6px;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tree-view_arrow:after {
+  content: "▾";
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* rotate the triangle to close it */
+.tree-view_arrow-collapsed {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}

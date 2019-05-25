@@ -1,0 +1,253 @@
+/****************CSS********************/
+.white-bg {
+  background-color: #fff;
+  padding: 20px 20px 20px 35px;
+  border: 1px solid #e8e8e8;
+  margin-top: 8px; }
+
+.width-10 {
+  width: 10%;
+  display: flex;
+  vertical-align: middle;
+  text-align: right; }
+  .width-10 a {
+    margin-top: 10px;
+    display: inline-block; }
+
+.width-25.form-group {
+  margin-bottom: 15px; }
+
+.width-25 {
+  width: 30%;
+  display: block;
+  vertical-align: middle; }
+
+.width-25 input {
+  border: 1px solid #e4e4e4;
+  padding: 10px 15px;
+  color: #3b3b3b;
+  font-family: 'GothamHTF-Medium', sans-serif;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 70%;
+  margin-bottom: 15px; }
+  .width-25 input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #b8b8b8; }
+  .width-25 input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #b8b8b8; }
+  .width-25 input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #b8b8b8; }
+  .width-25 input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #b8b8b8; }
+
+.width-80 {
+  width: 80%;
+  float: left;
+  display: flex;
+  position: relative;
+  margin-bottom: 12px; }
+  .width-80 .plus-icon {
+    background: url(../images/svg/plus-hier.svg) no-repeat;
+    background-size: 23px 23px;
+    width: 23px;
+    height: 22px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 15px; }
+  .width-80 .label-minusicon {
+    background: url(../images/svg/minus-hier.svg) no-repeat;
+    background-size: 23px 23px;
+    width: 23px;
+    height: 22px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 15px; }
+  .width-80 .error-msg {
+    position: absolute;
+    bottom: -20px;
+    left: 3px; }
+
+.width-75 {
+  width: 74%; }
+
+.width-85 {
+  width: 85%; }
+
+.hierachy-select {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-apperance: none;
+  -ms-appearance: none;
+  cursor: pointer;
+  color: #747474;
+  border-radius: 3px;
+  padding: 12px 30px;
+  appearance: none;
+  background: url(../images/svg/select-drop1.svg) no-repeat center left;
+  border: 1px solid #e4e4e4;
+  background-position: 10px;
+  font-size: 14px;
+  font-family: 'GothamHTF-Medium', sans-serif; }
+
+.mg-tl-15 {
+  margin-top: 15px;
+  margin-left: 25px;
+  max-width: 87% !important; }
+
+.width-80 .hierachy-second-select {
+  width: 98%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-apperance: none;
+  -ms-appearance: none;
+  cursor: pointer;
+  color: #747474;
+  border-radius: 3px;
+  padding: 12px 30px;
+  appearance: none;
+  background: url(../images/svg/select-drop1.svg) no-repeat center left;
+  border: 1px solid #e4e4e4;
+  background-position: 10px;
+  font-size: 14px;
+  font-family: 'GothamHTF-Medium', sans-serif; }
+
+.width-75 .first-selection {
+  padding: 8px 25px;
+  border-bottom: 1px solid #d8d8d8;
+  position: relative;
+  display: flex; }
+
+.width-75 .bg-gray {
+  background-color: #e8e8e8;
+  width: 97%;
+  border-radius: 5px; }
+
+.width-75 .mg-tl-30 {
+  margin-top: 15px;
+  margin-left: 50px; }
+
+.width-75 .width-30 {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top; }
+  .width-75 .width-30 .input-first {
+    border: 1px solid #e4e4e4;
+    padding: 10px 15px;
+    color: #333333;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'GothamHTF-Book', sans-serif;
+    font-weight: 600;
+    width: 95%; }
+    .width-75 .width-30 .input-first::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #b8b8b8; }
+    .width-75 .width-30 .input-first::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #b8b8b8; }
+    .width-75 .width-30 .input-first:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #b8b8b8; }
+    .width-75 .width-30 .input-first:-moz-placeholder {
+      /* Firefox 18- */
+      color: #b8b8b8; }
+  .width-75 .width-30 .datatype-select {
+    width: 75%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-apperance: none;
+    -ms-appearance: none;
+    cursor: pointer;
+    color: #333333;
+    border-radius: 3px;
+    padding: 10px 30px;
+    appearance: none;
+    background: url(../images/svg/select-drop1.svg) no-repeat right;
+    border-color: transparent;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: 'GothamHTF-Book', sans-serif;
+    margin-left: 25px; }
+    .width-75 .width-30 .datatype-select::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #b8b8b8; }
+    .width-75 .width-30 .datatype-select::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #b8b8b8; }
+    .width-75 .width-30 .datatype-select:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #b8b8b8; }
+    .width-75 .width-30 .datatype-select:-moz-placeholder {
+      /* Firefox 18- */
+      color: #b8b8b8; }
+
+.width-10 .label-plusicon {
+  background: url(../images/svg/plus-hier.svg) no-repeat;
+  background-position: 18px 18px;
+  width: 18px;
+  height: 18px;
+  background-position: right;
+  display: inline-block; }
+
+.width-10 .label-minusicon {
+  background: url(../images/svg/minus-hier.svg) no-repeat;
+  background-position: 18px 18px;
+  width: 18px;
+  height: 18px;
+  margin-left: 15px;
+  background-position: right;
+  display: inline-block; }
+
+@media only screen and (max-width: 1300px) {
+  .width-85 {
+    width: 83%; } }
+
+@media only screen and (max-width: 1190px) {
+  .width-25 {
+    width: 93%; }
+  .width-80 .width-30 .input-first {
+    width: 95%; } }
+
+@media only screen and (max-width: 1000px) {
+  .width-10 {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #fff; }
+    .width-10 a {
+      margin: 0; }
+  .width-80 .width-30 {
+    width: 100%; }
+    .width-80 .width-30 .input-first {
+      width: 100%; }
+    .width-80 .width-30 .datatype-select {
+      margin: 14px 0 14px 0px;
+      width: 100%; } }
+
+@media only screen and (max-width: 600px) {
+  .width-80 {
+    width: 100%; }
+    .width-80 .plus-icon, .width-80 .label-minusicon {
+      margin-left: 6px;
+      margin-right: 0px; }
+  .white-bg {
+    padding: 20px 10px; }
+  .mg-tl-15 {
+    margin-left: 0px; }
+  .width-75 {
+    width: 100%; }
+    .width-75 .mg-tl-30 {
+      margin-left: 0px; }
+    .width-75 .bg-gray {
+      width: 100%; }
+    .width-75 .hierachy-second-select {
+      width: 100%; } }

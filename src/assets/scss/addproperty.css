@@ -1,0 +1,13 @@
+.container.addproperty .main-content .personal-information {
+  margin-bottom: 0px; }
+
+.container.addproperty .main-content .form-group .inputgroup .check-btns label {
+  width: 130px; }
+
+.container.addproperty .main-content .form-group label {
+  width: 190px; }
+
+@media only screen and (max-width: 1200px) {
+  .container.addproperty .main-content .form-group label {
+    font-size: 12px;
+    width: 140px; } }
